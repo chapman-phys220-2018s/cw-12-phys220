@@ -1,8 +1,8 @@
 # PHYS220 CW 12 
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Daniel, Devon, Myranda**
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-12-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-12-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2018s/cw-11-phys220.svg?branch=master)](https://travis-ci.org/chapman-phys220-2018s/cw-11-phys220)
 
 
 ## Specification
@@ -40,4 +40,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Myranda**
