@@ -2,7 +2,7 @@
 
 **Author(s):** **Daniel, Devon, Myranda**
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2018s/cw-11-phys220.svg?branch=master)](https://travis-ci.org/chapman-phys220-2018s/cw-11-phys220)
+[![Build Status](https://travis-ci.org/chapman-phys220-2018s/cw-12-phys220.svg?branch=master)](https://travis-ci.org/chapman-phys220-2018s/cw-12-phys220)
 
 
 ## Specification
