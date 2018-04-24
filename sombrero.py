@@ -15,6 +15,9 @@
 #CW12
 ###
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 def runge4(x0,y0,F,N):
     dt = .001
     x = np.zeros(N)
@@ -42,3 +45,12 @@ def runge4(x0,y0,F,N):
         x[i] = x[i-1] + (xk1 + 2*xk2 + 2*xk3 +xk4)/6
         y[i] = y[i-1] + (yk1 + 2*yk2 + 2*yk3 +yk4)/6
     return (x,y)
+
+def plot_sombrero():
+    plt.figure(figsize=(10,10))
+    plt.title("Sombrero Plot")
+    plt.xlabel("x")
+    plt.ylabel("v")
+    x = np.linspace(-1.5,1.5,10000)
+    v = (x**4/2)-(x**2/2)
+    plt.plot(x,v)

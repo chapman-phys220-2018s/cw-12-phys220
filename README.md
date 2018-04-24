@@ -41,3 +41,8 @@ I pledge that all the work in this repository is my own with only the following 
 Signed,
 
 **Myranda**
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -------------:|
+| col 3 is      | some wordy text |          1600 |
+| col 2 is      |    centered     |            12 |
+| zebra stripes |    and math     |      $\pi^3$ |
