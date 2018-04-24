@@ -25,11 +25,11 @@ def runge4(x0,y0,F,N):
     y = np.zeros(N)
     y[0] = y0
     for i in range(1,N):
-        t += 0
+        t += dt
         tmid = t - (dt/2)
         tforw = t + dt
         xk1 = dt*(y[i-1])
-        yk1 = dt*(-.25*y[i-1]+x[i-1]-(x[i-1]**3)+F*np.cos(t))
+        yk1 = dt*(-.25*y[i-1]+x[i-1]-(x[i-1]**3)+F*np.cos(t-dt))
         xmid = x[i-1] + xk1/2
         ymid = y[i-1] + yk1/2
         xk2 = dt*(ymid)
@@ -41,7 +41,7 @@ def runge4(x0,y0,F,N):
         xforw = x[i-1] + xk3
         yforw = y[i-1] + yk3
         xk4 = dt*(yforw)
-        yk4 = dt*(-.25*yforw[i-1]+xforw[i-1]-(xforw[i-1]**3)+F*np.cos(tforw))
+        yk4 = dt*(-.25*yforw[i-1]+xforw[i-1]-(xforw[i-1]**3)+F*np.cos(t))
         x[i] = x[i-1] + (xk1 + 2*xk2 + 2*xk3 +xk4)/6
         y[i] = y[i-1] + (yk1 + 2*yk2 + 2*yk3 +yk4)/6
     return (x,y)
