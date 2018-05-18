@@ -29,7 +29,7 @@ Your homework this week will be to finish this classwork assignment, and then us
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**I like this classwork because it builds on the previous classwork.  Genereating the code to solve ODEs is much easier now that we have done it once for HW11 - Daniel**
 
 ## Honor Pledge
 
@@ -40,7 +40,7 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**Myranda**
+**Myranda Daniel**
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -------------:|
 | col 3 is      | some wordy text |          1600 |
