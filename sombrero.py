@@ -17,7 +17,13 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+import numba as nb
 
+"""sombrero.py
+This python file contains functions that solve ODEs and plot the solutions.
+"""
+
+@nb.jit
 def runge4(x0,y0,F,N):
     dt = .001
     t = 0
